@@ -1,0 +1,3 @@
+echo "cmspass" | docker secret create cms_db_password -
+echo "cmsuser" | docker secret create cms_db_user -
+echo "rootpass" | docker secret create cms_root_password -
